@@ -24,7 +24,7 @@ Le but était de mettre en pratique les bases de React à travers un projet conc
 
 1. Clone le dépôt :
    ```bash
-   git clone https://github.com/ton-utilisateur/pokedex-react.git
+   git clone https://github.com/kuraifuyu666/pokedex-react.git
    cd pokedex-react
    ```
 
