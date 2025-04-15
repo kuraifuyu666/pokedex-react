@@ -11,15 +11,18 @@ body {
     width: 90%;
     max-width: 640px;
     margin: 0 auto;
+    padding: 20px;
 }
 
 p {
     line-height: 1.5;
+    font-size: 0.8rem; /* Taille plus lisible sur petit écran */
 }
 
 nav {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap; /* Permet de passer sur plusieurs lignes si petit écran */
     gap: 10px;
     padding: 10px;
     background-color: #D13325;
@@ -33,6 +36,7 @@ nav a {
     font-weight: bold;
     color: #F7E39C;
     margin: 0 4px;
+    font-size: 0.7rem; /* Taille réduite par défaut */
 }
 
 nav a:hover {
@@ -41,4 +45,47 @@ nav a:hover {
 
 a {
     color: black;
+}
+
+/* === Responsive Design === */
+
+/* Smartphones (portrait) */
+@media screen and (max-width: 480px) {
+    nav a {
+        font-size: 0.6rem;
+    }
+
+    p {
+        font-size: 0.7rem;
+    }
+
+    .content {
+        padding: 10px;
+    }
+}
+
+/* Tablettes */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    nav a {
+        font-size: 0.75rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+}
+
+/* Grands écrans */
+@media screen and (min-width: 1024px) {
+    nav {
+        gap: 20px;
+    }
+
+    nav a {
+        font-size: 0.9rem;
+    }
+
+    p {
+        font-size: 0.85rem;
+    }
 }
