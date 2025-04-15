@@ -1,12 +1,58 @@
-# React + Vite
+# 📘 Pokédex React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenue dans mon application **Pokédex**, un projet développé avec **React** dans le cadre d’un module de formation sur **Mimo**.
 
-Currently, two official plugins are available:
+## 🚀 Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ce projet reprend le principe du Pokédex bien connu des fans de Pokémon. Il permet de :
 
-## Expanding the ESLint configuration
+- Consulter la liste des Pokémon
+- Rechercher un Pokémon spécifique
+- Afficher les détails d’un Pokémon (nom, image, type, etc.)
+- Naviguer facilement grâce à **React Router**
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Le but était de mettre en pratique les bases de React à travers un projet concret et ludique.
+
+## 🛠️ Technologies utilisées
+
+- ⚛️ React
+- 🧭 React Router DOM
+- 📦 Vite (pour l’environnement de développement)
+- 💅 CSS (pour le style)
+
+## ▶️ Lancer le projet en local
+
+1. Clone le dépôt :
+   ```bash
+   git clone https://github.com/ton-utilisateur/pokedex-react.git
+   cd pokedex-react
+   ```
+
+2. Installe les dépendances :
+   ```bash
+    npm install
+    # ou yarn
+   ```
+
+3. Lance le serveur de développement :
+   ```bash
+    npm run dev
+    # ou yarn dev
+   ```
+
+
+## 📚 Apprentissage
+
+Ce projet m’a permis de :
+
+M’initier à la création de composants React
+
+Manipuler les props et le state
+
+Utiliser un router pour créer une SPA
+
+Comprendre la logique d’un projet front-end structuré
+
+## 👨‍💻 Réalisé par
+
+kuraifuyu666, dans le cadre d’un module Mimo - Développement Web React
